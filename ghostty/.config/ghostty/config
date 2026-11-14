@@ -1,0 +1,38 @@
+# =========================
+# Window & UI
+# =========================
+maximize = true
+window-padding-x = 0
+window-padding-y = 0
+window-padding-balance = true
+
+mouse-hide-while-typing = true
+confirm-close-surface = false
+
+# =========================
+# Appearance
+# =========================
+theme = Everforest Dark Hard
+font-family = "Maple Mono NF"
+font-size = 15
+
+# background-opacity = 0.99
+# background-blur-radius = 25
+# background-image = ~/Downloads/ghostty.jpg
+# background-image-opacity = 0.05
+# background-image-position = "center"
+# background-image-fit = "contain"
+# background-image-repeat = true
+
+# title = " "
+# macos-titlebar-proxy-icon = hidden
+
+# =========================
+# Shell
+# =========================
+shell-integration = fish
+
+# =========================
+# macOS / Keyboard
+# =========================
+macos-option-as-alt = right
