@@ -1,10 +1,10 @@
 # =========================
 # Window & UI
 # =========================
-maximize = true
-window-padding-x = 0
-window-padding-y = 0
-window-padding-balance = true
+# maximize = true
+# window-padding-x = 0
+# window-padding-y = 0
+# window-padding-balance = true
 
 mouse-hide-while-typing = true
 confirm-close-surface = false
@@ -13,7 +13,8 @@ confirm-close-surface = false
 # Appearance
 # =========================
 theme = Everforest Dark Soft
-font-family = "Maple Mono NF"
+background = #333c43
+font-family = "Fira Code"
 font-size = 15
 
 # background-opacity = 0.99
@@ -24,8 +25,8 @@ font-size = 15
 # background-image-fit = "contain"
 # background-image-repeat = true
 
-# title = " "
-# macos-titlebar-proxy-icon = hidden
+title = " "
+macos-titlebar-proxy-icon = hidden
 
 # =========================
 # Shell
@@ -36,3 +37,4 @@ shell-integration = fish
 # macOS / Keyboard
 # =========================
 macos-option-as-alt = right
+
