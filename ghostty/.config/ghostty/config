@@ -5,17 +5,39 @@
 # window-padding-x = 0
 # window-padding-y = 0
 window-padding-balance = true
-macos-titlebar-style = tabs
-
+# Titlebar & tab bar disembunyikan, tab diurus tmux
+macos-titlebar-style = hidden
 mouse-hide-while-typing = true
 confirm-close-surface = false
 
 # =========================
 # Appearance
 # =========================
-theme = Everforest Dark Soft
-background = #333c43
-font-family = "Fira Code"
+# Everforest Dark Hard (sainnhe/everforest), sama dengan wezterm
+background = #272e33
+foreground = #d3c6aa
+cursor-color = #d3c6aa
+cursor-text = #272e33
+selection-background = #4c3743
+selection-foreground = #d3c6aa
+split-divider-color = #414b50
+palette = 0=#414b50
+palette = 1=#e67e80
+palette = 2=#a7c080
+palette = 3=#dbbc7f
+palette = 4=#7fbbb3
+palette = 5=#d699b6
+palette = 6=#83c092
+palette = 7=#d3c6aa
+palette = 8=#859289
+palette = 9=#e67e80
+palette = 10=#a7c080
+palette = 11=#dbbc7f
+palette = 12=#7fbbb3
+palette = 13=#d699b6
+palette = 14=#83c092
+palette = 15=#d3c6aa
+font-family = "Iosevka Term"
 font-size = 15
 
 # background-opacity = 0.99
@@ -38,4 +60,7 @@ shell-integration = fish
 # macOS / Keyboard
 # =========================
 macos-option-as-alt = right
+
+# Matikan tab Ghostty (tidak kelihatan karena titlebar hidden), pakai tmux
+keybind = cmd+t=unbind
 
