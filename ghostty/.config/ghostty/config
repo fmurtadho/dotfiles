@@ -7,7 +7,7 @@ window-padding-x = 12
 window-padding-y = 4,10
 window-padding-balance = true
 # Padding ikut warna sel terdekat, jadi status bar tmux penuh sampai tepi jendela
-window-padding-color = extend
+window-padding-color = extend-always
 # Titlebar & tab bar disembunyikan, tab diurus tmux
 macos-titlebar-style = hidden
 mouse-hide-while-typing = true
@@ -41,7 +41,9 @@ palette = 13=#d699b6
 palette = 14=#83c092
 palette = 15=#d3c6aa
 font-family = "Iosevka Term"
-font-size = 15
+font-size = 14
+# Jarak antarbaris sedikit lebih lega, sama dengan line_height 1.1 di wezterm
+adjust-cell-height = 10%
 
 # background-opacity = 0.99
 # background-blur-radius = 25
