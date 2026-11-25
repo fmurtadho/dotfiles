@@ -2,10 +2,10 @@
 # Window & UI
 # =========================
 # maximize = true
-# Padding supaya tmux tidak mepet ke tepi/sudut jendela (titlebar hidden)
+# Padding kiri-kanan & bawah; atas 0 + balance false supaya status bar tmux menempel ke tepi atas
 window-padding-x = 12
-window-padding-y = 4,10
-window-padding-balance = true
+window-padding-y = 0,10
+window-padding-balance = false
 # Padding ikut warna sel terdekat, jadi status bar tmux penuh sampai tepi jendela
 # (bukan extend-always: itu ikut meluaskan warna hijau pill ke padding atas)
 window-padding-color = extend
