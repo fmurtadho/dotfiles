@@ -56,7 +56,14 @@ config.color_schemes = {
 config.color_scheme = "Everforest Dark Hard"
 
 -- Font
+-- Iosevka Term (varian khusus terminal), ikon Nerd Font dari fallback
+config.font = wezterm.font_with_fallback({
+  "Iosevka Term",
+  "Symbols Nerd Font Mono",
+  "Maple Mono NF",
+})
 config.font_size = 14.0
+config.line_height = 1.1
 
 -- Window
 config.window_padding = { left = 8, right = 8, top = 8, bottom = 8 }
